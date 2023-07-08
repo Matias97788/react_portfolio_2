@@ -1,21 +1,27 @@
 // import images
-import Hero_person from "./assets/images/Hero/person.png";
+import Hero_person from "./assets/images/Hero/persona.png";
 
-import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
+import shopifylogo from "./assets/images/Skills/shopifylogo.png";
+import mongodblogo from "./assets/images/Skills/mongodblogo.png";
+import zappierlogo from "./assets/images/Skills/zappierlogo.png";
+import logowordpress from "./assets/images/Skills/logowordpress.png";
 import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
+import woocommercelogo from "./assets/images/Skills/woocommercelogo.png";
 import python from "./assets/images/Skills/python.png";
+import klaviyo from "./assets/images/Skills/klaviyo.png";
+
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
-import services_logo3 from "./assets/images/Services/logo3.png";
+import services_logo3 from "./assets/images/Services/asesoria.png";
 
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
+import email from "./assets/images/Services/email.png"
+import personaProjecto from "./assets/images/Services/personaproyectos.png"
+
+
+//import project1 from "./assets/images/projects/img1.png";
+//import project2 from "./assets/images/projects/img2.png";
+//import project3 from "./assets/images/projects/img3.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -49,85 +55,86 @@ export const content = {
       icon: RiServiceLine,
     },
     {
-      link: "#projects",
-      icon: RiProjectorLine,
-    },
-    {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    title: "Desarrollo Full Stack",
+    firstName: "MATIAS",
+    LastName: "RODRIGUEZ",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "5+",
+        text: "Años de experiencia en desarrollo web",
       },
       {
         count: "20+",
-        text: "Projects Worked in my career",
+        text: "Proyectos trabajados en mi carrera",
       },
     ],
   },
   skills: {
-    title: "Skills",
-    subtitle: "MY TOP SKILLS",
+    title: "Habilidades",
+    subtitle: "MIS HABILIDADES PRINCIPALES",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "Shopify",
+        para: "Implementación de tiendas online",
+        logo: shopifylogo,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        name: "WordPress",
+        para: "Desarrollo de sitio webs",
+        logo: logowordpress,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
+        name: "Woocommerce",
+        para: "Creación de tiendas online",
+        logo: woocommercelogo,
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "Desarollo web a medida",
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "Zappier",
+        para: "Integración de app con zappier",
+        logo: zappierlogo,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "Mongodb",
+        para: "Manejo de base datos con mongodb",
+        logo: mongodblogo,
       },
+      {
+        name: "klaviyo",
+        para: "Implementación de campañas de email marketing",
+        logo: klaviyo,
+      }
     ],
     icon: MdArrowForward,
   },
   services: {
-    title: "Services",
-    subtitle: "WHAT I OFFER",
+    title: "Servicios",
+    subtitle: "LO QUE OFREZCO",
     service_content: [
       {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Desarrollo de sitio webs",
+        para: "Obtén una presencia en línea profesional y efectiva con nuestro servicio de desarrollo web. Me encargo de crear sitios web personalizados y optimizados para dispositivos móviles que reflejen la identidad de tu marca y te ayuden a destacar en el mercado.",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
+        title: "Email marketing",
+        para: "Impulsa tus ventas y conecta con tus clientes de manera efectiva a través de nuestro servicio de email marketing. Envía correos personalizados y relevantes que generen interacción y aumenten tu tasa de conversión.",
+        logo: email,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Asesoría en tecnologías",
+        para: "Orientación y asistencia técnica en la selección, implementación y uso de diferentes tecnologías y herramientas de software",
         logo: services_logo3,
       },
     ],
@@ -135,19 +142,19 @@ export const content = {
   Projects: {
     title: "Projects",
     subtitle: "MY CREATION",
-    image: person_project,
+    image: personaProjecto,
     project_content: [
       {
         title: "Gym Website",
-        image: project1,
+        //image: project1,
       },
       {
         title: "Social Media web",
-        image: project2,
+        //image: project2,
       },
       {
         title: "Creative Website",
-        image: project3,
+        //image: project3,
       },
     ],
   },
@@ -182,31 +189,25 @@ export const content = {
     ],
   },
   Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
+    title: "Contáctame",
+    subtitle: "PARA TUS PROYECTOS",
+    image1: Hero_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-    btnText: "Hire Me",
+    para: "Si está buscando un profesional confiable y experimentado, entonces estoy seguro de que puedo ofrecerte un servicio excepcional. Mi experiencia y habilidades en el desarrollo web me permiten diseñar y construir sitios web y aplicaciones en línea que no solo se ven atractivos, sino que también son altamente funcionales y escalables.",
+    btnText: "Contratame",
   },
   Contact: {
-    title: "Contect Me",
-    subtitle: "GET IN TOUCH",
+    title: "Contáctame",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "matiasrodriguezsandoval@outlook.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:matiasrodriguezsandoval@outlook.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+56979428207",
         icon: MdCall,
-        link: "https://wa.me/1234567890",
-      },
-      {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://wa.me/56979428207",
       },
     ],
   },

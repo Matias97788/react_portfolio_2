@@ -1,8 +1,17 @@
 // import content
 import { useEffect } from "react";
 import { content } from "../Content";
+
 const Hero = () => {
   const { hero } = content;
+
+  const style = {
+
+    // Adding media query..
+    '@media (max-width: 500px)': {
+      display: 'none',
+    },
+  };
 
   return (
     <section id="home" className="overflow-hidden">
@@ -12,7 +21,7 @@ const Hero = () => {
           data-aos-delay="1200"
           className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10"
         >
-          <h1 className="rotate-90 absolute top-[30%] right-[-15%] text-[#EAF2FA]">
+          <h1 style={style} className="textomobil rotate-90 absolute top-[50%] right-[-10%] text-[#EAF2FA]">
             {hero.firstName}{" "}
             <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
@@ -20,12 +29,10 @@ const Hero = () => {
 
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          <h2>{hero.title}</h2>
+          <h2 className="center">{hero.title}</h2>
           <br />
-          <div className="flex justify-end">
-            <button className="btn">{hero.btnText}</button>
-          </div>
-          <div className="flex flex-col gap-10 mt-10">
+
+          <div className="flex flex-col gap-10 mt-10 ">
             {hero.hero_content.map((content, i) => (
               <div
                 key={i}

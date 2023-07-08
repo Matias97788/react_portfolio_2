@@ -12,6 +12,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+
 const App = () => {
   useEffect(() => {
     Aos.init({
@@ -26,13 +27,13 @@ const App = () => {
       <Hero />
       <Skills />
       <Service />
-      <Projects />
-      <Testimonials />
+   
+     
       <Hireme />
       <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">JOHN ALEX</h6>
-        <p>codeaprogram © All CopyRights Reserved 2022</p>
+        <h6 className="mb-3">MATIAS RODRIGUEZ</h6>
+        <p>MATIASRODRIGUEZ © All CopyRights Reserved 2022</p>
       </footer>
     </div>
   );

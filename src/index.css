@@ -66,3 +66,17 @@
 .swiper-pagination-bullet {
   @apply w-3 h-3 bg-dark_primary;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+ .textomobil {
+    font-size: 25px;
+   right: -35% !important;
+   top: 30% !important;
+  }
+  .center{
+    text-align: center;
+  }
+
+}
