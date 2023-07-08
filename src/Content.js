@@ -192,7 +192,7 @@ export const content = {
     title: "Contáctame",
     subtitle: "PARA TUS PROYECTOS",
     image1: Hero_person,
-    image2: Hireme_person2,
+    image2: Hero_person,
     para: "Si está buscando un profesional confiable y experimentado, entonces estoy seguro de que puedo ofrecerte un servicio excepcional. Mi experiencia y habilidades en el desarrollo web me permiten diseñar y construir sitios web y aplicaciones en línea que no solo se ven atractivos, sino que también son altamente funcionales y escalables.",
     btnText: "Contratame",
   },

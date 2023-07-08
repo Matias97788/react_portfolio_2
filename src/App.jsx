@@ -8,7 +8,7 @@ import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
-// Animation package
+// animaciónes
 import Aos from "aos";
 import "aos/dist/aos.css";
 
